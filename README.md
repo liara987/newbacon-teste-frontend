@@ -1,5 +1,58 @@
-# Vue 3 + Vite
+# 🧑‍💻 newbacon-teste-frontend
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Projeto frontend desenvolvido com **Vue 3 + Vite**, que consome dados da API [Reqres](https://reqres.in/) para realizar operações básicas de CRUD (Create, Read, Update, Delete) com usuários.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 🚀 Funcionalidades
+
+- ✅ Listar usuários paginados
+- 👁️ Visualizar detalhes de um usuário
+- ➕ Criar novo usuário
+- ✏️ Editar informações de um usuário
+- 🗑️ Excluir usuário
+- 📄 Paginação de resultados
+
+## 🛠️ Tecnologias Utilizadas
+
+- [Vue 3](https://vuejs.org/)
+- [Vue Router](https://router.vuejs.org/)
+- [Vite](https://vitejs.dev/)
+
+## 📦 Instalação e Execução
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/newbacon-teste-frontend.git
+cd newbacon-teste-frontend
+
+# Instale as dependências
+npm install
+
+# Rode o servidor de desenvolvimento
+npm run dev
+```
+
+## 🔐 Variáveis de Ambiente
+
+Crie um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
+
+```env
+VITE_API_URL=https://reqres.in/api
+```
+
+## 📁 Estrutura do Projeto
+
+```
+src/
+├── components/      # Componentes reutilizáveis
+├── views/           # Páginas do sistema
+├── router/          # Arquivo de rotas
+├── assets/          # Imagens e ícones
+├── App.vue          # Componente principal
+└── main.js          # Ponto de entrada
+```
+
+## 🎨 Estilo
+
+- Design simples e responsivo
+- Componente de botão com estado desabilitado customizado
+- Ícones SVG para ações (editar, excluir, visualizar)
