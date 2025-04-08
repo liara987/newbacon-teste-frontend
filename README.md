@@ -2,6 +2,8 @@
 
 Projeto frontend desenvolvido com **Vue 3 + Vite**, que consome dados da API [Reqres](https://reqres.in/) para realizar operações básicas de CRUD (Create, Read, Update, Delete) com usuários.
 
+## [Ver aplicação online](https://newbacon-teste-frontend.vercel.app/)
+
 ## 🚀 Funcionalidades
 
 - ✅ Listar usuários paginados
