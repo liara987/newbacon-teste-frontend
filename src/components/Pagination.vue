@@ -60,5 +60,23 @@ const goToNextPage = () => {
   align-items: center;
   gap: 1rem;
   margin-top: 2rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.pagination span {
+  font-size: 1rem;
+  min-width: 140px;
+}
+
+@media (max-width: 480px) {
+  .pagination {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .pagination span {
+    font-size: 0.95rem;
+  }
 }
 </style>
