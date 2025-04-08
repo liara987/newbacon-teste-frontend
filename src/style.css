@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --primary: #000000;
-  --secondary: #ffffff;
-  --gray: #797979;
-  --light-gray: #f7f7f7;
-
   font-family: "Montserrat", sans-serif;
   line-height: 100%;
   letter-spacing: 0.2px;
@@ -22,14 +17,28 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+div,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
 #app {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
